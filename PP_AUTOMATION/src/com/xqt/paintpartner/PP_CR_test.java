@@ -44,7 +44,7 @@ public class PP_CR_test {
 	public void gotohomepage(){
 		
 		 webdriverclass.ff.findElement(By.xpath("//img[@src='NPNImages/home.png']")).click();
-		 //ass
+		
 	}
 
 	
