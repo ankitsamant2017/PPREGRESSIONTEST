@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Nippon-Paintpartner  Test Suite" verbose="1">
+
+
+
+<test name="Paint Partner-CR Screenshot and testing" >
+<classes>
+<class name="com.xqt.paintpartner.PP_CR_test"></class>
+</classes>
+</test>
+
+
+<test name="Paint Partner-Admin Screenshot and  testing" >
+<classes>
+<class name="com.xqt.paintpartner.PP_ADMIN_test"></class>
+</classes>
+</test>
+
+
+<test name="Paint Partner-PPDeployemetTesting" >
+<classes>
+<class name="com.xqt.framework.PPDeployemetTesting"></class>
+</classes>
+</test>
+
+
+ </suite>

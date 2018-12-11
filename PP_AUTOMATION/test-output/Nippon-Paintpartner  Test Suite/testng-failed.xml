@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Nippon-Paintpartner  Test Suite]">
+  <test name="Paint Partner-Admin Screenshot and  testing(failed)">
+    <classes>
+      <class name="com.xqt.paintpartner.PP_ADMIN_test">
+        <methods>
+          <include name="gotohomepage"/>
+          <include name="closefirefox"/>
+          <include name="go"/>
+          <include name="openchromedriver"/>
+          <include name="mastermanagement"/>
+        </methods>
+      </class> <!-- com.xqt.paintpartner.PP_ADMIN_test -->
+    </classes>
+  </test> <!-- Paint Partner-Admin Screenshot and  testing(failed) -->
+  <test name="Paint Partner-PPDeployemetTesting(failed)">
+    <classes>
+      <class name="com.xqt.framework.PPDeployemetTesting">
+        <methods>
+          <include name="closefirefox"/>
+          <include name="verifymastermanagementmodule"/>
+          <include name="gotohomepage"/>
+          <include name="verifycolourcountColoursearchmodulle"/>
+          <include name="go"/>
+          <include name="openchromedriver"/>
+        </methods>
+      </class> <!-- com.xqt.framework.PPDeployemetTesting -->
+    </classes>
+  </test> <!-- Paint Partner-PPDeployemetTesting(failed) -->
+</suite> <!-- Failed suite [Nippon-Paintpartner  Test Suite] -->

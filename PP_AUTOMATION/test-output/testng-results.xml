@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="241719" started-at="2018-12-07T08:13:13Z" finished-at="2018-12-07T08:17:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="241719" started-at="2018-12-07T08:13:13Z" finished-at="2018-12-07T08:17:14Z">
+      <class name="com.xqt.paintpartner.PP_ADMIN_test">
+        <test-method status="PASS" signature="openchromedriver()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="openchromedriver" is-config="true" duration-ms="7908" started-at="2018-12-07T13:43:13Z" finished-at="2018-12-07T13:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openchromedriver -->
+        <test-method status="PASS" signature="coloursearch()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="coloursearch" duration-ms="21770" started-at="2018-12-07T13:43:21Z" finished-at="2018-12-07T13:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coloursearch -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:43:21Z" finished-at="2018-12-07T13:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="989" started-at="2018-12-07T13:43:42Z" finished-at="2018-12-07T13:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="colourrequest()[pri:1, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="colourrequest" duration-ms="12620" started-at="2018-12-07T13:43:43Z" finished-at="2018-12-07T13:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colourrequest -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:43:43Z" finished-at="2018-12-07T13:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="966" started-at="2018-12-07T13:43:56Z" finished-at="2018-12-07T13:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="managepanel()[pri:2, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="managepanel" duration-ms="15742" started-at="2018-12-07T13:43:57Z" finished-at="2018-12-07T13:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managepanel -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:43:57Z" finished-at="2018-12-07T13:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1045" started-at="2018-12-07T13:44:13Z" finished-at="2018-12-07T13:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="managecolour()[pri:3, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="managecolour" duration-ms="92278" started-at="2018-12-07T13:44:14Z" finished-at="2018-12-07T13:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managecolour -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:44:14Z" finished-at="2018-12-07T13:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1027" started-at="2018-12-07T13:45:46Z" finished-at="2018-12-07T13:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="1" started-at="2018-12-07T13:45:47Z" finished-at="2018-12-07T13:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="PROFILE()[pri:4, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="PROFILE" duration-ms="448" started-at="2018-12-07T13:45:47Z" finished-at="2018-12-07T13:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PROFILE -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1043" started-at="2018-12-07T13:45:48Z" finished-at="2018-12-07T13:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="UserRegistration()[pri:5, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="UserRegistration" duration-ms="1906" started-at="2018-12-07T13:45:49Z" finished-at="2018-12-07T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:45:49Z" finished-at="2018-12-07T13:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1013" started-at="2018-12-07T13:45:51Z" finished-at="2018-12-07T13:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="PRICING()[pri:6, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="PRICING" duration-ms="2765" started-at="2018-12-07T13:45:52Z" finished-at="2018-12-07T13:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PRICING -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:45:52Z" finished-at="2018-12-07T13:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1030" started-at="2018-12-07T13:45:54Z" finished-at="2018-12-07T13:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:45:55Z" finished-at="2018-12-07T13:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="datashare()[pri:7, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="datashare" duration-ms="1770" started-at="2018-12-07T13:45:55Z" finished-at="2018-12-07T13:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datashare -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1043" started-at="2018-12-07T13:45:57Z" finished-at="2018-12-07T13:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:45:58Z" finished-at="2018-12-07T13:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="Download()[pri:8, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="Download" duration-ms="9276" started-at="2018-12-07T13:45:58Z" finished-at="2018-12-07T13:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1050" started-at="2018-12-07T13:46:07Z" finished-at="2018-12-07T13:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="systemreport()[pri:9, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="systemreport" duration-ms="7853" started-at="2018-12-07T13:46:08Z" finished-at="2018-12-07T13:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemreport -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:46:08Z" finished-at="2018-12-07T13:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1038" started-at="2018-12-07T13:46:16Z" finished-at="2018-12-07T13:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="go()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="go" is-config="true" duration-ms="0" started-at="2018-12-07T13:46:17Z" finished-at="2018-12-07T13:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+        <test-method status="PASS" signature="mastermanagement()[pri:10, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="mastermanagement" duration-ms="54991" started-at="2018-12-07T13:46:17Z" finished-at="2018-12-07T13:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mastermanagement -->
+        <test-method status="PASS" signature="gotohomepage()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="gotohomepage" is-config="true" duration-ms="1062" started-at="2018-12-07T13:47:12Z" finished-at="2018-12-07T13:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotohomepage -->
+        <test-method status="PASS" signature="closefirefox()[pri:0, instance:com.xqt.paintpartner.PP_ADMIN_test@4d1b0d2a]" name="closefirefox" is-config="true" duration-ms="1063" started-at="2018-12-07T13:47:13Z" finished-at="2018-12-07T13:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closefirefox -->
+      </class> <!-- com.xqt.paintpartner.PP_ADMIN_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
