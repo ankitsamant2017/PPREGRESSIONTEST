@@ -49,7 +49,7 @@ public File takescreenshot(){   //TAKE SCREENSHOT METHOD
 		WebDriverWait wait=new WebDriverWait(webdriverclass.ff, 20);
 		return wait;
 	
-		
+		//ADDD
 	}
 	
 	
