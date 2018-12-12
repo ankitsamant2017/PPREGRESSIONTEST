@@ -10,7 +10,19 @@ public class Webdriverclass  {
 	
 	public void FireFoxdriver() {
 		
-		System.getProperty("webdriver.firefox.driver", "G:\\selenium workspace\\workspace\\PaintPartner\\geckodriver.exe");
+		
+		//FirefoxProfile profile=new FirefoxProfile();
+	//	 profile.setPreference("browser.download.dir",  "G:\\\\selenium workspace\\\\GIT-Repository\\\\PaintPartner");
+		// profile.setPreference("browser.download.folderList", 2);
+//profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/zip,");		
+		
+		
+
+
+		System.setProperty("webdriver.gecko.driver", "G:\\selenium workspace\\GIT-Repository\\PaintPartner\\geckodriver.exe");
+
+		
+		
 		driver=new FirefoxDriver();
 			
 	}

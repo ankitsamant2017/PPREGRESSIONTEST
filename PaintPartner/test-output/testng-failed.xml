@@ -6,8 +6,9 @@
       <class name="com.xqt.group1.PaintPartner.ColourSearch">
         <methods>
           <include name="Logout"/>
-          <include name="viewformulation"/>
           <include name="Login"/>
+          <include name="verfiycoloursearchpage"/>
+          <include name="systemreport"/>
         </methods>
       </class> <!-- com.xqt.group1.PaintPartner.ColourSearch -->
     </classes>
