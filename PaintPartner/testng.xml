@@ -2,8 +2,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.xqt.group1.PaintPartner.ColourSearch"/>
-    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
