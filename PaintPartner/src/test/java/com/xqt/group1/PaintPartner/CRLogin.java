@@ -1,12 +1,14 @@
 package com.xqt.group1.PaintPartner;
 
+import org.testng.annotations.Test;
+
 import com.xqt.datadrivenframework.Testexecutor;
 
 import junit.framework.TestCase;
 
-public class Login extends TestCase {
+public class CRLogin extends TestCase {
 
-	@SuppressWarnings("static-access")
+	@Test(priority=1)
 	public void testlogin() throws Exception {
 
 		Testexecutor te=new Testexecutor();

@@ -62,7 +62,7 @@ public void openchromedriver() throws IOException{
  webdriverclass.ff.findElement(By.name("btnLogin")).click();
   }
 
-	                                                //TEST FOR COLOUR SEARCH MODULE
+	                                    //TEST FOR COLOUR SEARCH MODULE
   @Test(enabled=true,priority=0)
   public void coloursearch() throws IOException, InterruptedException {
 	  System.out.println("****************************************************************************************************");	

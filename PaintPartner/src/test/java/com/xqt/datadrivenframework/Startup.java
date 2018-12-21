@@ -8,10 +8,11 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.runner.JUnitCore;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Startup {
 
-	 static WebDriver driver=null;
+	public static WebDriver driver=null;
 
 public static void main(String args[]) throws IOException, EncryptedDocumentException, InvalidFormatException, ClassNotFoundException {
 	
@@ -21,15 +22,17 @@ String browsername=wer.getelemnetfromWER("BROWSER", "G:\\selenium workspace\\GIT
 String Url=wer.getelemnetfromWER("URL", "G:\\selenium workspace\\GIT-Repository\\PaintPartner\\config\\config.properties");
 
 
-/*if(browsername.equals("chrome")) {
+if(browsername.equals("chrome")) {
 	driver=new ChromeDriver();
+	
+	
+	
 }else if(browsername.equals("firefox")) {
 	//System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 driver=new FirefoxDriver();	
 }
-*/
 
-driver=new ChromeDriver();
+
 driver.manage().window().maximize();
 driver.get(Url);
 driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
@@ -39,10 +42,10 @@ int totaltests=lib.Getrowcount("scenarios");
 for(int testscenario=1;testscenario<=totaltests;testscenario++) {
 	
 	String executionstatus=ExcelLibrary.getexcelStringvalue("scenarios", testscenario, 1);
-	System.out.println(executionstatus);
+//	System.out.println(executionstatus);
 	if(executionstatus.equalsIgnoreCase("yes")) {
 String scenarioname=ExcelLibrary.getexcelStringvalue("scenarios", testscenario, 0);
-System.out.println(scenarioname);
+System.out.println("********************scenario name******************************"+scenarioname);
 
 JUnitCore runTest = new JUnitCore();
 @SuppressWarnings("rawtypes")
@@ -50,7 +53,7 @@ Class c;
 try {
 	c = Class.forName("com.xqt.group1.PaintPartner."+scenarioname);
 	runTest.run(c);
-} catch (ClassNotFoundException e) {
+	} catch (ClassNotFoundException e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();
 }		
@@ -58,9 +61,6 @@ try {
 	
 	
 }
-
-
-
 
 		
 	}
