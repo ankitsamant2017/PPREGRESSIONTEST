@@ -73,12 +73,12 @@ else if(elementidmethod.equals("xpath")) {
 
 
 
-else if(elementidmethod.equals("partiallinktext")) {
+else if(elementidmethod.equals("partiallinkText")) {
 	element=Startup.driver.findElement(By.partialLinkText(elementidvalue));
 	lib.Setvalueinxl(scenarioname, teststep, 6, "FAIL");
 	lib.Setvalueinxl(scenarioname, teststep, 7, "Element "+logicalname+" not found");
 }
-else if(elementidmethod.equals("linktext")) {
+else if(elementidmethod.equals("linkText")) {
 	
 	element=Startup.driver.findElement(By.linkText(elementidvalue));
 	lib.Setvalueinxl(scenarioname, teststep, 6, "FAIL");
@@ -154,7 +154,7 @@ lib.Setvalueinxl(scenarioname, teststep, 7,"Actual Dropdown count"+svalue+"is ma
 
 
 
-else if(action.equals("verfiytextcount")) {
+else if(action.equals("verfiyTextcount")) {
 	
 		if(element!=null) {
 		int actualcount=listelemet.size();
@@ -164,10 +164,10 @@ else if(action.equals("verfiytextcount")) {
 		if(str2.equals(data)) {
 			lib.Setvalueinxl(scenarioname, teststep, 6, "pass");
 			lib.Setvalueinxl(scenarioname, teststep, 7, "Actual count which is"+str2+"is matched with Expected count"+data+"");
-			lib.storetextvalue(str2);
+			//lib.storetextvalue(str2);
 		}else  {
 			lib.Setvalueinxl(scenarioname, teststep, 6, "fail");
-			lib.Setvalueinxl(scenarioname, teststep, 7, "text count does not  matched");			
+			lib.Setvalueinxl(scenarioname, teststep, 7, "Text count does not  matched");			
 		}
 		}	
 }
@@ -240,17 +240,17 @@ if(element!=null) {
 	
 
 }
- else if(action.equals("verifytextpresent")) {
+ else if(action.equals("verifyTextpresent")) {
 	if(element!=null) {
-String actaultext=	element.getText().trim();	
-System.out.println("actaultext"+actaultext);
-	if(actaultext.equals(data)) {
+String actaulText=	element.getText().trim();	
+System.out.println("actaulText"+actaulText);
+	if(actaulText.equals(data)) {
 		lib.Setvalueinxl(scenarioname, teststep, 6, "pass");
-		lib.Setvalueinxl(scenarioname, teststep, 7, "text is present");
+		lib.Setvalueinxl(scenarioname, teststep, 7, "Text is present");
 		
 	}else  {
 		lib.Setvalueinxl(scenarioname, teststep, 6, "fail");
-		lib.Setvalueinxl(scenarioname, teststep, 7, "text is not present");
+		lib.Setvalueinxl(scenarioname, teststep, 7, "Text is not present");
 		
 	}
 	}
